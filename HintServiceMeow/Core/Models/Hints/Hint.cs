@@ -27,6 +27,11 @@ namespace HintServiceMeow.Core.Models.Hints
         /// </summary>
         private float _yCoordinate = 700;
 
+
+        /// <summary>
+        /// Represents the Y-line offset of a hint. This property determines the offset between two lines seperated by \n.
+        /// </summary>
+        public float YLineOffset { get; set; } = 0;
         #region Constructors
         public Hint() : base()
         {

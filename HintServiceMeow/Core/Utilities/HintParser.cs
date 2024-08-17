@@ -162,7 +162,7 @@ namespace HintServiceMeow.Core.Utilities
 
                 sb.Append('\n');
 
-                yOffset += hint.FontSize;
+                yOffset += hint.FontSize + hint.YLineOffset;
             }
 
             return sb.ToString();
